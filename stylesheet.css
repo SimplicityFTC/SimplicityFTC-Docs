@@ -122,9 +122,9 @@
     color: #ffffff !important;
   }
 
-  --md-primary-fg-color: #110d1e;
+  --md-primary-fg-color: #0e0b19;
   /* --md-primary-fg-color--light: red; */
-  --md-primary-fg-color--dark: #111111;
+  --md-primary-fg-color--dark: #0e0b19;
   --md-primary-bg-color: #9be60b;
   --md-primary-bg-color--light: #9be60b;
 
@@ -137,13 +137,13 @@
   --md-default-fg-color--light: #9be60b;
   --md-default-fg-color--lighter: #9be60b;
   --md-default-fg-color--lightest: #ffffff28;
-  --md-default-bg-color: #19132b;
+  --md-default-bg-color: #181323;
   /* --md-default-bg-color--light: red; */
   /* --md-default-bg-color--lighter: red; */
   /* --md-default-bg-color--lightest: red; */
 
   --md-code-fg-color: #aeaeae;
-  --md-code-bg-color: #110d1e;
+  --md-code-bg-color: #0e0b19;
 
   --md-code-hl-number-color: hsla(0, 67%, 50%, 1);
   --md-code-hl-special-color: hsla(340, 83%, 47%, 1);
@@ -207,4 +207,15 @@
 .md-header__button.md-logo img {
   height: 1.5rem !important;
   width: auto !important;
+}
+
+@font-face {
+  font-family: "MonaSpace";
+  src: url("./fonts/MonaspaceNeon-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --md-text-font: "MonaSpace";
 }
