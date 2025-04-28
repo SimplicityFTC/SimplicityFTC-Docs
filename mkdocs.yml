@@ -1,0 +1,70 @@
+site_name: SimplicityFTC Docs
+site_url: https://simplicityftc.github.io/SimplicityFTC-docs/
+
+repo_url: https://github.com/SimplicityFTC/SimplicityFTC-Docs
+repo_name: SimplicityFTC-Docs
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+plugins:
+  - social:
+      cards_layout_options:
+        background_color: "#0c122c"
+        color: "#9be60b"
+        font_family: "Inter"
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+  font:
+    code: "JetBrains Mono"
+  language: ro
+  favicon: logos/simplicityftc.png
+  logo: logos/simplicityftc.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: light
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: custom
+      accent: custom
+    - media: "(prefers-color-scheme: dark)"
+      scheme: dark
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: custom
+      accent: custom
+  icon:
+    admonition:
+      note: fontawesome/solid/bookmark
+
+extra_css:
+  - stylesheet.css # Custom CSS to switch themes
+docs_dir: "docs"
+
+nav:
+  - Home: index.md
