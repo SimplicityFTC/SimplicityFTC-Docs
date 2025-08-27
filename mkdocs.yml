@@ -66,5 +66,8 @@ extra_css:
   - stylesheet.css # Custom CSS to switch themes
 docs_dir: "docs"
 
+extra:
+  generator: false
+
 nav:
   - Home: index.md

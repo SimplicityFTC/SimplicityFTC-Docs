@@ -1,11 +1,4 @@
-# **ERM WHAT THE SIGMA?**
+# **WORK IN PROGRESS**
 
-Skibidi dop dop yes yes
-
-```java
-public static void main() {
-
-}
-```
-
-![image](./logos/simplicityftc.png)
+The SimplicityFTC library is still a work in progress. In the meantime, you can checkout
+the source repository [here](https://github.com/SimplicityFTC/SimplicityFTC-Quickstart).
